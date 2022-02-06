@@ -1,4 +1,4 @@
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Marcio Soares](https://www.linkedin.com/in/marciosoaresthomann/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Marcio Soares Thomann](https://www.linkedin.com/in/marciosoaresthomann/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 ​
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 ​
@@ -23,17 +23,17 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 ​
 - [X] 1: _Introdução - HTML & CSS_
 - [X] 1: _HTML & CSS - Estruturas de página_
-- [ ] 2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 4: _HTML Semântico_
-- [ ] 5: _[Projeto - Lessons Learned]()_
+- [X] 2: _HTML & CSS - Primeiros passos em CSS_
+- [X] 3: _HTML & CSS - Seletores e posicionamento_
+- [X] 4: _HTML Semântico_
+- [X] 5: _[Projeto - Lessons Learned]()_
 ​
 #### Bloco 4: Introdução à JavaScript e Lógica de Programação
 ​
-- [ ] 1: _Introdução - JavaScript_
-- [ ] 1: _JavaScript - Primeiros passos_
-- [ ] 2: _JavaScript - Array e loop For_
-- [ ] 3: _JavaScript - Lógica de Programação e Algoritmos_
+- [X] 1: _Introdução - JavaScript_
+- [X] 1: _JavaScript - Primeiros passos_
+- [X] 2: _JavaScript - Array e loop For_
+- [X] 3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4: _JavaScript - Objetos e funções_
 - [ ] 5: _[Projeto - Playground Functions]()_
 ​
@@ -290,3 +290,5 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _[Projeto - TING - Trybe Is Not Google]()_
 ​
 # [...]
+
+
