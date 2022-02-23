@@ -53,10 +53,10 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 ​
 - [X] 1: _HTML & CSS - Forms_
-- [ ] 2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 3: _Introdução - CSS Flexbox_
-- [ ] 3: _CSS Flexbox - Part 1_
-- [ ] 4: _CSS Flexbox - Part 2_
+- [X] 2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 3: _Introdução - CSS Flexbox_
+- [X] 3: _CSS Flexbox - Part 1_
+- [X] 4: _CSS Flexbox - Part 2_
 - [ ] 5: _CSS Responsivo - Mobile First_
 - [ ] 6: _[Projeto - Trybewarts]()_
 ​
