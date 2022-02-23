@@ -1,0 +1,14 @@
+.container {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: aliceblue;
+  
+}
+
+form, header {
+  border: 2px solid black;
+  margin: 40px;
+  background-color: aquamarine;
+}
