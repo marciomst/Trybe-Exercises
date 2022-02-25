@@ -1,3 +1,30 @@
+# Repositório de aulas ao vivo para estudantes da Turma 20 - Tribo B
+
+Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.
+
+## Começando
+
+Basta clonar o repositório
+
+```sh
+git clone git@github.com:tryber/sd-020-b-live-lectures.git
+```
+
+Em seguida acessar a branch do Pull Request da aula seguindo o padrão de nomenclatura das branchs **(nome-branch-aula-ao-vivo)**
+
+Exemplo:
+```sh
+git checkout lecture/3.1
+```
+
+---
+
+### Estrutura
+
+Todos os conteúdos dados em aulas estarão no seu respectivo Pull Request! 😉
+
+---
+=======
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Marcio Soares Thomann](https://www.linkedin.com/in/marciosoaresthomann/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 ​
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
