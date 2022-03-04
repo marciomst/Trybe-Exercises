@@ -24,41 +24,41 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [X] 1: _Introdução - HTML & CSS_
 - [X] 1: _HTML & CSS - Estruturas de página_
 - [X] 2: _HTML & CSS - Primeiros passos em CSS_
-- [X] 3: _HTML & CSS - Seletores e posicionamento_
-- [X] 4: _HTML Semântico_
-- [X] 5: _[Projeto - Lessons Learned]()_
+- [ ] 3: _HTML & CSS - Seletores e posicionamento_
+- [ ] 4: _HTML Semântico_
+- [ ] 5: _[Projeto - Lessons Learned]()_
 ​
 #### Bloco 4: Introdução à JavaScript e Lógica de Programação
 ​
-- [X] 1: _Introdução - JavaScript_
-- [X] 1: _JavaScript - Primeiros passos_
-- [X] 2: _JavaScript - Array e loop For_
-- [X] 3: _JavaScript - Lógica de Programação e Algoritmos_
-- [X] 4: _JavaScript - Objetos e funções_
-- [X] 5: _[Projeto - Playground Functions]()_
+- [ ] 1: _Introdução - JavaScript_
+- [ ] 1: _JavaScript - Primeiros passos_
+- [ ] 2: _JavaScript - Array e loop For_
+- [ ] 3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4: _JavaScript - Objetos e funções_
+- [ ] 5: _[Projeto - Playground Functions]()_
 ​
 #### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 ​
-- [X] 1: _JavaScript - DOM e seletores_
-- [X] 2: _JavaScript - Trabalhando com elementos_
-- [X] 3: _JavaScript - Eventos_
-- [X] 4: _JavaScript - Web Storage_
-- [X] 5: _Fundamentos - JavaScript - Projetos_
-- [X] 5: _[Projeto - Arte com Pixels]()_
-- [X] 6: _[Projeto - Lista de tarefas]()_
-- [X] 7: _[Projeto - Meme Generator]()_
-- [X] 7: _[Projeto - Adivinhe a Cor]()_
-- [X] 7: _[Projeto - Carta Misteriosa]()_
+- [ ] 1: _JavaScript - DOM e seletores_
+- [ ] 2: _JavaScript - Trabalhando com elementos_
+- [ ] 3: _JavaScript - Eventos_
+- [ ] 4: _JavaScript - Web Storage_
+- [ ] 5: _Fundamentos - JavaScript - Projetos_
+- [ ] 5: _[Projeto - Arte com Pixels]()_
+- [ ] 6: _[Projeto - Lista de tarefas]()_
+- [ ] 7: _[Projeto - Meme Generator]()_
+- [ ] 7: _[Projeto - Adivinhe a Cor]()_
+- [ ] 7: _[Projeto - Carta Misteriosa]()_
 ​
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 ​
-- [X] 1: _HTML & CSS - Forms_
-- [X] 2: _Bibliotecas JavaScript e Frameworks CSS_
-- [X] 3: _Introdução - CSS Flexbox_
-- [X] 3: _CSS Flexbox - Part 1_
-- [X] 4: _CSS Flexbox - Part 2_
-- [X] 5: _CSS Responsivo - Mobile First_
-- [X] 6: _[Projeto - Trybewarts]()_
+- [ ] 1: _HTML & CSS - Forms_
+- [ ] 2: _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 3: _Introdução - CSS Flexbox_
+- [ ] 3: _CSS Flexbox - Part 1_
+- [ ] 4: _CSS Flexbox - Part 2_
+- [ ] 5: _CSS Responsivo - Mobile First_
+- [ ] 6: _[Projeto - Trybewarts]()_
 ​
 #### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 ​
