@@ -14,7 +14,7 @@ Em seguida acessar a branch do Pull Request da aula seguindo o padrão de nomenc
 
 Exemplo:
 ```sh
-git checkout lecture/3.1
+git checkout lecture/7.2
 ```
 
 ---
