@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [X] 1: _JavaScript - DOM e seletores_
 - [X] 2: _JavaScript - Trabalhando com elementos_
 - [X] 3: _JavaScript - Eventos_
-- [ ] 4: _JavaScript - Web Storage_
+- [X] 4: _JavaScript - Web Storage_
 - [ ] 5: _Fundamentos - JavaScript - Projetos_
 - [ ] 5: _[Projeto - Arte com Pixels]()_
 - [ ] 6: _[Projeto - Lista de tarefas]()_
