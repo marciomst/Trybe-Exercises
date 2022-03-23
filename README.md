@@ -62,17 +62,17 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 ​
 #### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 ​
-- [ ] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 3: _Primeiros passos em Jest_
-- [ ] 4: _[Projeto - JavaScript Testes Unitários]()_
+- [X] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [X] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [X] 3: _Primeiros passos em Jest_
+- [X] 4: _[Projeto - JavaScript Testes Unitários]()_
 ​
 #### Bloco 8: Higher Order Functions do JavaScript ES6
 ​
-- [ ] 1: _JavaScript ES6 -introdução a Higher Order Functions_
-- [ ] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 1: _JavaScript ES6 -introdução a Higher Order Functions_
+- [X] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [ ] 6: _[Projeto - Zoo functions]()_
 ​
