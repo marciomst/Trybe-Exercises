@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    console.log(React);
+
+
+    // PascalCase T_T_T_
+    // CamelCase _T_T_
+    function Header() {
+      return <h1>Começo da minha página</h1>;
+    }
+
+    function MyApp() {
+      return <h1>Meio</h1>;
+    }
+
+    function Footer() {
+      return <h1>Final da minha página</h1>;
+    }
+
+    class Conteudo extends React.Component {
+      render() {
+        return <h1>Esse é de classe</h1>;
+      }
+    }
+
+
+    // Convensão
+
+    // Unidade que monta uma APp React são os COmponentes
+
+    // const jsx = <div><h2 className="red">Bem vindo ao React</h2><p>Bem vindos ao módulo de FrontEnd</p></div>
+    // string, int, bool
+    // const jsx = <><h1>teste</h1><h2>teste</h2></>;
+    // const jsx = Header();
+
+
+    class EscreveNomes extends React.Component {
+      render() {
+        const nomes = ['Ander', 'Gabriel', 'Airel', 'João']
+        return <ul>
+          {nomes.map((nome) => <li>{nome}</li>)}
+        </ul>;
+      }
+    }
+
+    // const jsx = <><Header /><MyApp /><Conteudo /><Footer /></>;
+    const varJSX = <><EscreveNomes /></>;
+
+    // COMPONENTE
+    // FUNCIONAL = uma Função que retorna JSX
+
+    // ALGUEM vai pegar isso que PARECE html e TRANSFORMAR em js
+    // <> => <React.Fragment>
+
+    const container = document.getElementById('root');
+    const root = ReactDOM.createRoot(container);
+    root.render(varJSX);
+
+  </script>
+</body>
+
+</html>
