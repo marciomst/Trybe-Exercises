@@ -1,0 +1,19 @@
+.Personagem{
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  justify-content: center;
+}
+
+.Personagem img{
+  width: 80px;
+  height: 80px;
+}
+
+.Personagem .content{
+  flex-grow: 1;
+}
+
+.Personagem .content h3{
+  margin: 0;
+}
