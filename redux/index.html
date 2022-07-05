@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redux dark mode example</title>
+		<!-- CDN DO REDUX -->
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="wrapper" class="dark">
+      <img
+        id="light-bulb"
+        src="img/light.png"
+        alt="lampada"
+      />
+      <button id="light-switch">
+        <img
+          src="img/interruptor.png"
+          alt="interruptor"
+        />
+      </button>
+    </main>
+    <script>
+
+      // vai controlar o className da nossa id=wrapper ['light', 'dark']
+
+      // import { createStore } from 'redux';
+      // createStore
+
+      const INITIAL_STATE = { mode: 'light' }
+      const ACTION_TOGGLE_MODE = 'TOGGLE_MODE';
+      // action creator é função que retorna uma action
+      const actionCreator = () => ({ type: ACTION_TOGGLE_MODE });
+      // const actionCreator = (mode) => ({ type: ACTION_TOGGLE_MODE, payload: mode });
+
+      // função redutora = é uma função que recebe state e retorna um novo state
+      const reducer = (state = INITIAL_STATE, action) => {
+
+        console.log('Dentro do reducer [action]', action)
+        // if(action.type === ACTION_TOGGLE_MODE){
+        //   return { ...state, mode: state.mode === 'light' ? 'dark' : 'light' }
+        // }
+
+        // mais comum
+        switch(action.type){
+          case ACTION_TOGGLE_MODE:
+            return { ...state, mode: state.mode === 'light' ? 'dark' : 'light' }
+          default: return {...state};
+        }
+
+        // SEMPRE RETORNAREMOS UM NOVO OBJETO
+        // return {...state};
+      }
+
+      const store = Redux.createStore( reducer );
+      const state = store.getState();
+      
+      // GARANTE O PRIMEIRO
+      const wrapper = document.getElementById('wrapper');
+      wrapper.className = state.mode;
+
+      const lightSwitch = document.getElementById('light-switch');
+      lightSwitch.addEventListener('click', () => {
+        // intenção  = ACTION = Objeto que type => { type: 'ALGUMACOISA' }
+        // const action = { type: 'TOGGLE_MODE' };
+        store.dispatch(actionCreator()); // PEDE PARA MUDAR O STATE
+        
+        // NUNCA CONFIAR
+        // const newState = store.getState();
+        // console.log(newState);
+        
+        // this.setSTate({mode: 'outro'}) -> re renderização assincrona
+        // this.state.mode
+
+        // this.setSTate({mode: 'outro'})
+        // await this.state.mode
+
+      });
+
+      // fofoca => x9 => redux x9 contou que mudou o state
+      store.subscribe( () => { //SEMPRE RECEBE QUE O STATE MUDOU
+        
+        // SEMPRE POSSO CONFIAR
+        const newState = store.getState();
+        console.log(' SUBSCRIBE ', newState.mode)
+        const wrapper = document.getElementById('wrapper');
+        wrapper.className = newState.mode;
+      })
+
+    </script>
+  </body>
+</html>
