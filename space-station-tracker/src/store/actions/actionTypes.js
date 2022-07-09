@@ -1,0 +1,3 @@
+const UPDATE_COORDS = 'UPDATE_COORDS';
+
+export { UPDATE_COORDS };
