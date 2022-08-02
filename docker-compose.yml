@@ -1,0 +1,21 @@
+version: '3'
+
+services: # services = containers 
+  web: ## REACT
+    image: nginx
+    volumes: 
+      - ./public_html:/usr/share/nginx/html
+    ports:
+      - 8080:80 # primeiro parametro = minha máquin
+    depends_on:
+      - banco
+  
+  banco:
+    image: mysql:8.0.21
+    platform: linux/x86_64
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+ 
