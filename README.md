@@ -6,3 +6,5 @@ Vocês devem fazer o clone desse repositório na sua máquina através do comand
 Depois de fazer o `git pull` para ver o conteúdo de uma aula especifica é só vocês acessarem a branch da aula que desejam ver, com o comando `git checkout lecture/3.1`, por exemplo! 
 
 ⚠️ Obs.: Esse repositório é só para consulta dos arquivos e códigos que vamos utilizar em todas as nossas aulas ao vivo e vocês **não vão devolver** (fazer um push) nenhuma informação para o repositório remoto, ok! 😉 
+
+
